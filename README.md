@@ -12,7 +12,7 @@ A lightweight, plug-and-play collection of custom animated `RichTextEffect` node
 - **`[silver]`** — Clean silver shine effect.
 - **`[supercharge]`** — High-voltage electrical color jitter.
 - **`[soul_out]`** — Ghostly shivering and spatial offset.
-- **`[rick]`** — Rainbow color cycle with rhythmic bouncing letters.
+- **`[rick_ascii]`** — Rick_ascii color cycle with rhythmic bouncing letters.
 
 ---
 
