@@ -1,0 +1,73 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "BBCodeEffects",
+"language": "GDScript",
+"path": "res://addons/custom_BBCode/bbcode_effects.gd"
+}, {
+"base": "RichTextEffect",
+"class": "RichTextGold",
+"language": "GDScript",
+"path": "res://addons/custom_BBCode/RichTextGold.gd"
+}, {
+"base": "Reference",
+"class": "RichTextIAmLeave",
+"language": "GDScript",
+"path": "res://addons/custom_BBCode/RichTextLeave.gd"
+}, {
+"base": "Reference",
+"class": "RichTextRickASCII",
+"language": "GDScript",
+"path": "res://addons/custom_BBCode/RickASCII.gd"
+}, {
+"base": "Reference",
+"class": "RichTextSilver",
+"language": "GDScript",
+"path": "res://addons/custom_BBCode/RichTextSilver.gd"
+}, {
+"base": "RichTextEffect",
+"class": "RichTextSoulOut",
+"language": "GDScript",
+"path": "res://addons/custom_BBCode/RichTextSoulOut.gd"
+}, {
+"base": "RichTextEffect",
+"class": "RichTextSupercharge",
+"language": "GDScript",
+"path": "res://addons/custom_BBCode/RichTextSupercharge.gd"
+} ]
+_global_script_class_icons={
+"BBCodeEffects": "",
+"RichTextGold": "",
+"RichTextIAmLeave": "",
+"RichTextRickASCII": "",
+"RichTextSilver": "",
+"RichTextSoulOut": "",
+"RichTextSupercharge": ""
+}
+
+[application]
+
+config/name="BBCode_custom_effects"
+run/main_scene="res://demo/Demo.tscn"
+config/icon="res://icon.png"
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
